@@ -141,7 +141,7 @@ var args = message.content.split(" ").slice(1);
     //start of create role
     if(!muterole){ //alpha codes
       try{
-        muterole = await message.guild.createRole({
+        muterole = await message318705077734998017318705077734998017318705077734998017uild.createRole({
           name: "muted",
           color: "#000000",
           permissions:[]
@@ -799,7 +799,7 @@ General  ✻ Commands
 Server support : dont have
 ==================================================================
 bot invite link : Private
-❤ By ❤  :<@510520286488035339>
+❤ By ❤  :<@318705077734998017>
 ==================================================================
 `);
   message.author.send({embed});
